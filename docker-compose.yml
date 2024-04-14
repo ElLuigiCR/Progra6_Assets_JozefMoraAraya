@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  progra6_assets_jozefmoraaraya:
+    image: ${DOCKER_REGISTRY-}progra6assetsjozefmoraaraya
+    build:
+      context: .
+      dockerfile: Progra6_Assets_JozefMoraAraya\Dockerfile
